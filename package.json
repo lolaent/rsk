@@ -1,0 +1,10 @@
+{
+  "name": "rsk",
+  "version": "1.0.0",
+  "description": "ReactStarterKit Examples",
+  "main": "index.js",
+  "private": true,
+  "author": "Rupert Redington <rupert@neontribe.co.uk>",
+  "license": "ISC",
+  "workspaces": ["examples/*"]
+}
