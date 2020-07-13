@@ -6,5 +6,20 @@
   "private": true,
   "author": "Rupert Redington <rupert@neontribe.co.uk>",
   "license": "ISC",
-  "workspaces": ["examples/*"]
+  "workspaces": [
+    "examples/*"
+  ],
+  "dependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.tsx": "prettier --write"
+  }
 }
