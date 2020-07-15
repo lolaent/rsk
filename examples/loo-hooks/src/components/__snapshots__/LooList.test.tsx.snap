@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a list of loo links 1`] = `
+<ul>
+  <li>
+    <a
+      href="/loos/test"
+    >
+      Name: 
+      Test
+    </a>
+  </li>
+</ul>
+`;
