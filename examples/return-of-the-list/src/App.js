@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 
-import { fetchLoos, Loo } from "loo-api";
+import { fetchLoos } from "loo-api";
 import LooList from "./components/LooList";
 import LooForm from "./components/LooForm";
 
 function App() {
   const [isOpen, setIsOpen] = React.useState(false);
-  const [loos, setLoos] = React.useState<Loo[]>([]);
+  const [loos, setLoos] = React.useState([]);
   React.useEffect(() => {
     fetchLoos().then(setLoos);
   }, []);
