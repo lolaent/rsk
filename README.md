@@ -5,7 +5,7 @@ examples for the React Starter Kit workshop
 ## Quickstart
 
 ```shell
-git clone git@github.com:neontribe/rsk.git
+git clone git@github.com:lolaent/rsk.git
 cd rsk
 yarn
 ```
