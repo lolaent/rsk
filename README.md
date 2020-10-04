@@ -12,7 +12,8 @@ yarn
 
 ## Slides
 
-https://docs.google.com/presentation/d/1o4cCMMZQBfp2esg-msulO4G-IczmNBQSTiXNDpZS4vU/edit?usp=sharing
+https://docs.google.com/presentation/d/1ntQxZDjqPbWVIq7AvAYlxYkDfn31_M6QQJQJiwnBxLc
+
 
 ## Useful Documentation
 
